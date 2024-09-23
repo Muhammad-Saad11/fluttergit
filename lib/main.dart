@@ -9,9 +9,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       home: LoadingScreen(),
-      // title: ('Text'),
-      // title: ('Text'),
       title: ('Text'),
+      // title: ('Text'),
+      // title: ('Text'),
+      // title: ('Text'),
+      // title: ('Text'),
 
 
     );
