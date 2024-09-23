@@ -1,0 +1,41 @@
+name: projectrr
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_spinkit: ^5.2.1
+  geolocator: ^13.0.1
+  font_awesome_flutter: ^10.7.0
+  permission_handler: ^10.2.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add the assets section to include images or other files
+  assets:
+    - assets/background.png  # Add paths to your assets here
+    # You can also include entire directories
+    - assets/images/  # Includes all images in the 'images' subdirectory
+
+  # Optional: Add custom fonts if needed
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
